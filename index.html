@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End Originator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">End Originator</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome To Our Studio</h3>
+            <h1>It's Nice To Meet You</h1>
+            <p>Creating amazing digital experiences for students, businesses, and designers.</p>
+            <button>Subscribe</button>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <h1>Our Services</h1>
+        <div class="services-container">
+            <div class="service-card">
+                <i class="fa-solid fa-circle-user"></i>
+                <h3>For Students</h3>
+                <p>Tailored guidance and solutions for student success and innovation.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-laptop"></i>
+                <h3>Web Services</h3>
+                <p>Professional full-stack development and modern website solutions.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-brands fa-figma"></i>
+                <h3>Design</h3>
+                <p>Creative UI/UX and graphics design to make your projects shine.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <h1>Our Portfolio</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-card"><img src="../images/p1.png" alt="Project1"><h3>Threads</h3></div>
+            <div class="portfolio-card"><img src="../images/p2.png" alt="Project2"><h3>Explore</h3></div>
+            <div class="portfolio-card"><img src="../images/p3.png" alt="Project3"><h3>Finish</h3></div>
+            <div class="portfolio-card"><img src="../images/p4.png" alt="Project4"><h3>Camera</h3></div>
+            <div class="portfolio-card"><img src="../images/p5.png" alt="Project5"><h3>Design</h3></div>
+            <div class="portfolio-card"><img src="../images/p6.png" alt="Project6"><h3>Gallery</h3></div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team" id="team">
+        <h1>Our Amazing Team</h1>
+        <div class="team-container">
+            <div class="team-card"><img src="../images/t1.png" alt=""><h3>Rafay Satti</h3><p>Software Engineer</p></div>
+            <div class="team-card"><img src="../images/t2.png" alt=""><h3>Hassan Nisar</h3><p>Web Developer</p></div>
+            <div class="team-card"><img src="../images/t3.png" alt=""><h3>Mohib Rajput</h3><p>Team Manager</p></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>© 2025 Design by Siva Rakshana</p>
+    </footer>
+
+    <!-- Burger Menu Script -->
+    <script>
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+        });
+    </script>
+</body>
+</html>
