@@ -50,7 +50,9 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    background:url("bg.png") no-repeat center center/cover;
+    background:url("bg.png";
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align:center;
     color:white;
     position:relative;
@@ -230,4 +232,5 @@ footer{
         align-items:center;
     }
 }
+
 
